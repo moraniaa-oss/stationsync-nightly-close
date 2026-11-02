@@ -1,0 +1,86 @@
+{
+  "store": {
+    "name": "Sample Liquor - Salem Road",
+    "business_date": "2026-10-25",
+    "note": "Fictional demo liquor store, representative of a live StationSync liquor store. All figures are invented for the hackathon demo. Planted discrepancy: drawer counts $12.50 short."
+  },
+  "crew_sheet": {
+    "cashier_1": "R. Sample",
+    "cashier_2": "T. Demo",
+    "cash_counted": "2894.49",
+    "card_batch_total": "5210.18",
+    "lottery_online_sales": "212.00",
+    "lottery_instant_sales": "340.00",
+    "lottery_cashes": "185.00",
+    "fuel_totalizer_dollars": "0.00"
+  },
+  "pos_closing": {
+    "departments": {
+      "Beer": "2146.80",
+      "Wine": "987.45",
+      "Spirits": "3218.60",
+      "Tobacco": "412.30",
+      "Mixers and Grocery": "386.55",
+      "Snacks and Candy": "148.30"
+    },
+    "merchandise_sales": "7300.00",
+    "sales_tax": "683.42",
+    "lottery_online_sales": "212.00",
+    "lottery_instant_sales": "340.00",
+    "lottery_cashes": "185.00",
+    "fuel": {
+      "regular": {
+        "dollars": "0.00",
+        "gallons": "0.000"
+      },
+      "premium": {
+        "dollars": "0.00",
+        "gallons": "0.000"
+      },
+      "total_dollars": "0.00"
+    },
+    "tenders": {
+      "card": "5210.18",
+      "ebt": "48.25",
+      "cash": "3091.99"
+    }
+  },
+  "journal": [
+    {
+      "id": 2081,
+      "type": "sale",
+      "payment": "cash",
+      "amount": "214.50",
+      "cashier": 1,
+      "time": "17:42",
+      "note": "Large cash sale, receipt in file"
+    },
+    {
+      "id": 2140,
+      "type": "void",
+      "payment": "cash",
+      "amount": "38.75",
+      "cashier": 2,
+      "time": "19:05",
+      "note": "Wrong bottle rung"
+    },
+    {
+      "id": 2141,
+      "type": "sale",
+      "payment": "cash",
+      "amount": "38.75",
+      "cashier": 2,
+      "time": "19:06",
+      "note": "Re-ring of void 2140"
+    },
+    {
+      "id": 2198,
+      "type": "no_sale",
+      "payment": null,
+      "amount": "0.00",
+      "cashier": 1,
+      "time": "20:31",
+      "note": "Drawer opened for change"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "store": {
+    "name": "Sample Fuel Mart - Interstate 30",
+    "business_date": "2026-10-25",
+    "note": "Fictional demo fuel-heavy store, representative of a live StationSync fuel store. All figures are invented for the hackathon demo. Planted discrepancies: crew lottery instant sales $5.00 under POS, and a no-sale cluster in a quiet hour."
+  },
+  "crew_sheet": {
+    "cashier_1": "M. Sample",
+    "cashier_2": "D. Demo",
+    "cash_counted": "7324.06",
+    "card_batch_total": "12840.66",
+    "lottery_online_sales": "624.00",
+    "lottery_instant_sales": "1180.00",
+    "lottery_cashes": "743.00",
+    "fuel_totalizer_dollars": "11745.75"
+  },
+  "pos_closing": {
+    "departments": {
+      "Tobacco": "2845.20",
+      "Grocery": "1924.66",
+      "Beer and Wine": "1108.44",
+      "Soda and Drinks": "876.30",
+      "Snacks and Candy": "654.18",
+      "General Merchandise": "491.22"
+    },
+    "merchandise_sales": "7900.00",
+    "sales_tax": "512.37",
+    "lottery_online_sales": "624.00",
+    "lottery_instant_sales": "1185.00",
+    "lottery_cashes": "743.00",
+    "fuel": {
+      "regular": {
+        "dollars": "8124.55",
+        "gallons": "2127.402"
+      },
+      "premium": {
+        "dollars": "941.20",
+        "gallons": "213.958"
+      },
+      "diesel": {
+        "dollars": "2680.00",
+        "gallons": "570.334"
+      },
+      "total_dollars": "11745.75"
+    },
+    "tenders": {
+      "card": "12840.66",
+      "ebt": "316.40",
+      "cash": "8067.06"
+    }
+  },
+  "journal": [
+    {
+      "id": 3310,
+      "type": "sale",
+      "payment": "cash",
+      "amount": "156.20",
+      "cashier": 2,
+      "time": "11:18",
+      "note": "Large cash sale, receipt in file"
+    },
+    {
+      "id": 3477,
+      "type": "void",
+      "payment": "cash",
+      "amount": "19.99",
+      "cashier": 1,
+      "time": "14:52",
+      "note": "Wrong fuel grade rung"
+    },
+    {
+      "id": 3478,
+      "type": "sale",
+      "payment": "cash",
+      "amount": "19.99",
+      "cashier": 1,
+      "time": "14:53",
+      "note": "Re-ring of void 3477"
+    },
+    {
+      "id": 3612,
+      "type": "no_sale",
+      "payment": null,
+      "amount": "0.00",
+      "cashier": 1,
+      "time": "02:07",
+      "note": "Drawer opened"
+    },
+    {
+      "id": 3615,
+      "type": "no_sale",
+      "payment": null,
+      "amount": "0.00",
+      "cashier": 1,
+      "time": "02:11",
+      "note": "Drawer opened"
+    },
+    {
+      "id": 3619,
+      "type": "no_sale",
+      "payment": null,
+      "amount": "0.00",
+      "cashier": 1,
+      "time": "02:16",
+      "note": "Drawer opened"
+    },
+    {
+      "id": 3621,
+      "type": "no_sale",
+      "payment": null,
+      "amount": "0.00",
+      "cashier": 1,
+      "time": "02:18",
+      "note": "Drawer opened"
+    }
+  ]
+}
